@@ -8,7 +8,7 @@ import java.util.List;
 @Data
 public class PagedFilmResponse {
     @JsonProperty
-    List<Film> items;
+    List<FilmResponse> items;
     Integer total;
     Integer totalPages;
 }
